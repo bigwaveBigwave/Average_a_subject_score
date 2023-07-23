@@ -17,5 +17,9 @@ int main()
 		}
 		sum = sum + A[i];
 	}
+
+	
+	double result = sum * 100.0 / max / N;
+	cout << result << "\n";
 	
 }
